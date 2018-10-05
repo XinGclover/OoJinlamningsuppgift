@@ -4,14 +4,10 @@ Java18-OOJ
  */
 package uppgift1.version2;
 
-/**
- *
- * @author xingao
- */
+
 public class Hund extends Husdjur {
     
-    public Hund(){
-        
+    public Hund(){     
     }
     public Hund(String namn, int vikt) {
         super(namn, vikt);
@@ -23,6 +19,6 @@ public class Hund extends Husdjur {
     }
     //Override metoden som räknar vikt av viss fod som behövs
     public int foderGram() {
-      return super.getVike()/100;
+        return super.getVike()/100;
     }   
 }

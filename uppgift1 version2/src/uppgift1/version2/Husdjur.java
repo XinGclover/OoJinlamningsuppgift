@@ -4,10 +4,7 @@ Java18-OOJ
  */
 package uppgift1.version2;
 
-/**
- *
- * @author xingao
- */
+
 public class Husdjur implements IFoder {
     private String namn;
     private int vikt;
